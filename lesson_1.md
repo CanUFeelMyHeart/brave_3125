@@ -1,11 +1,11 @@
 # **Инструкция по работе с Git-ом**  
-![Логотип Git](/images/git_logo.png)
+![Логотип Git](/brave_3125/images/git_logo.png)
 # Основные команды терминала Git
   
   Чтобы создать репозиторий, используется команда:  
   > git init  
 
-  ![Результат Git init](/images/git_init.PNG)  
+  ![Результат Git init](/brave_3125/images/git_init.PNG)  
 
   Чтобы получить информацию о текущем состоянии репозитория вводим:
   > git status  
@@ -21,7 +21,7 @@
   > git log  
   ***Примечание:*** Чтобы посмотреть все коммиты, которые не поместили зажимаем **Enter**, а чтобы выйти зажимаем клавишу **q**  
   
-  ![Результат Git log](/images/git_log.PNG)    
+  ![Результат Git log](/brave_3125/images/git_log.PNG)    
   
   Чтобы перейти с одного коммита на другой нужно команда:
   > git checkout  
@@ -35,7 +35,7 @@
   
   Для создания новой ветки, пишем:  
   > git branch **branch_name**  
-![Результат Git branch](/images/list.PNG)  
+![Результат Git branch](/brave_3125/images/list.PNG)  
 
   Для перехода с одной ветки на другую используем:
   > git checkout **branch_name**
@@ -43,14 +43,14 @@
   Для того, чтобы увидеть визуализацию логов вводим:
   > git log --graph  
 
-![Результат Git log](/images/git_log_2.PNG)  
+![Результат Git log](/brave_3125/images/git_log_2.PNG)  
 
 Удаление ненужных веток совершаем следующим образом:  
 > git branch -d **branch_name**  
 **Примечание**: -D если необходимо удалить несмердженную ветку  
 
 ## Решение конфликта:
-![conflict](/images/conflict.PNG)  
+![conflict](/brave_3125/images/conflict.PNG)  
 
 Для того, чтобы создать SSH ключ вводим команду:  
 > git ssh-keygen -t rsa  
